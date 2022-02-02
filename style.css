@@ -5,15 +5,26 @@ body {
     margin: auto;
 }
 
-main { 
-    display: grid;
-    grid-template-columns: 35% 65%;
-    margin-top: 3em;
-}
+
+@media (max-width: 801px) {
+    main  {
+        font-size: 16px;
+    }
+  }
+
+
+@media (min-width: 800px) {
+    main  {
+        display: grid;
+        grid-template-columns: 35% 65%;
+        margin-top: 3em;
+    }
+  }
 
 header {
     text-align: center;
     margin: auto 2em;
+    font-size: 3vw;
 }
 
 section {
