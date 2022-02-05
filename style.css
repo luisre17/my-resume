@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     max-width: 960px;
     margin: auto;
 }
@@ -9,23 +9,22 @@ body {
     main  {
         display: grid;
         grid-template-columns: 35% 65%;
-        margin-top: 3em;
-        font-size: 16px;
+        margin-top: 2em; 
     }
 }
 
 header {
     text-align: center;
     margin: auto 2em;
-    font-size: 3vw;
+    font-size: 2.2vw;
 }
 
 section {
-    margin: auto 1em 4em 2em;
+    margin: auto 2em 2em 2em;
 }
 
 i {
-    margin-right: .5em;
+    margin-right: .3em;
 }
 
 p {
@@ -34,7 +33,7 @@ p {
 
 hr {
     border: none;
-    background-color: lightgray;
+    background-color: gray;
     height: 1px;
 }
 
@@ -45,4 +44,8 @@ h1, h2 {
 
 .qrcode {
     text-align: center;
+}
+
+h4 {
+    margin: .2em auto;    
 }
