@@ -45,15 +45,6 @@ hr {
     text-align: center;
 }
 
-h1, h2, h4, p {
-    margin: .2em auto;
-    margin-top: 0;    
-}
-
-h2 {
-    margin-bottom: 0;
-}
-
 .resume {
     margin: auto;
     margin-top: 4px;
