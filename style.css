@@ -19,8 +19,8 @@ body {
 }
 
 .contact-info{
-    display: flex;
-    flex-wrap:  wrap;
+    display: grid;
+    grid-template-columns:  50% 50%;
     padding: 0.5rem 0;
     font-size: 12px;
     justify-content: space-around;
